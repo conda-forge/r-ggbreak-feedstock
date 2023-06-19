@@ -1,11 +1,11 @@
-About r-ggbreak
-===============
+About r-ggbreak-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggbreak-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/YuLab-SMU/ggbreak
 
 Package license: Artistic-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggbreak-feedstock/blob/main/LICENSE.txt)
 
 Summary: An implementation of scale functions for setting axis breaks of a 'gg' plot.
 
