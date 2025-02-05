@@ -25,17 +25,19 @@ requirements:
   host:
     - r-base
     - r-aplot >=0.1.5
-    - r-ggfun >=0.0.4
+    - r-ggfun >=0.1.1
     - r-ggplot2
     - r-ggplotify >=0.0.7
     - r-rlang
+    - r-yulab.utils >=0.1.9
   run:
     - r-base
     - r-aplot >=0.1.5
-    - r-ggfun >=0.0.4
+    - r-ggfun >=0.1.1
     - r-ggplot2
     - r-ggplotify >=0.0.7
     - r-rlang
+    - r-yulab.utils >=0.1.9
 
 test:
   commands:
