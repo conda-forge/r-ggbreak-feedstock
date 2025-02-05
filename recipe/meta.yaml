@@ -1,4 +1,4 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggbreak_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggbreak/ggbreak_{{ version }}.tar.gz
-  sha256: 4f35fbcecac7d0d92bfea6100815fb59fbb3485da3c0b33cbd1c947e76aeadfe
+  sha256: 680342950f690bc9beb2b3dfe078be8d3d5b19d5142b158f7fdc5a2a4797585d
 
 build:
   number: 0
@@ -25,17 +25,19 @@ requirements:
   host:
     - r-base
     - r-aplot >=0.1.5
-    - r-ggfun >=0.0.4
+    - r-ggfun >=0.1.1
     - r-ggplot2
     - r-ggplotify >=0.0.7
     - r-rlang
+    - r-yulab.utils >=0.1.9
   run:
     - r-base
     - r-aplot >=0.1.5
-    - r-ggfun >=0.0.4
+    - r-ggfun >=0.1.1
     - r-ggplot2
     - r-ggplotify >=0.0.7
     - r-rlang
+    - r-yulab.utils >=0.1.9
 
 test:
   commands:
