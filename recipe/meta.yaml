@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggbreak_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggbreak/ggbreak_{{ version }}.tar.gz
-  sha256: 7086152ebdfb38ebed8cae518bb0d0c3675913e35a706f1bac1c0c846b9a50a8
+  sha256: ad5e4ceb162295c86ddb1b16b4ddc682d4f6ada8bba18ba4fe3097b0d5bcd203
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
